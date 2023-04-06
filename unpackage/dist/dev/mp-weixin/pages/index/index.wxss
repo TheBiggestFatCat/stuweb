@@ -1,0 +1,37 @@
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background-image: url("../../static/preview.jpg");
+  background-size: cover;
+  padding-top: 200px;
+  background-repeat: no-repeat;
+}
+.title {
+  font-size: 16px;
+  padding: 20px;
+}
+.input {
+  font-size: 16px;
+  margin-left: 20px;
+  width: calc(100% - 40px);
+}
+.top {
+  font-size: 32px;
+  font-weight: 600;
+  padding: 20px;
+}
+.card {
+  width: 400px;
+  height: 460px;
+  background-color: #fff;
+  box-shadow: 0 0 30px #7a7a7a;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 0 auto;
+}
+button {
+  padding: 4px 24px;
+  background-color: #2979ff;
+  color: #fff;
+  margin-left: 20px;
+}

@@ -1,0 +1,64 @@
+/* 水平间距 */
+/* 水平间距 */
+.page {
+  padding: 40px 80px 0 320px;
+}
+.page-print {
+  padding: 40px 80px 0 80px;
+}
+button:nth-of-type(1) {
+  background-color: #2979ff;
+}
+button:nth-of-type(2) {
+  background-color: #e43d33;
+}
+button {
+  color: #fff;
+  font-size: 14px;
+  padding: 0px 20px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar {
+  position: fixed;
+  padding: 30px;
+  box-sizing: border-box;
+  text-align: center;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  width: 240px;
+  height: 100vh;
+  box-shadow: 0 0 10px #dddddd;
+}
+.sidebar h3 {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 20px;
+}
+.sidebar view {
+  padding: 20px;
+}
+.sidebar p {
+  cursor: pointer;
+  padding: 20px;
+}
+.sidebar p:hover {
+  background-color: #e6e6e6;
+}
+.arrow {
+  height: 61px;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  top: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.arrow p:hover {
+  background-color: #e6e6e6;
+}
